@@ -1,18 +1,27 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
+import HeadingTitle from './app/components/presentational/title/headingTitle/headingTitle';
+import Button from './app/components/presentational/button/button';
+import Breadcrumb from './app/components/containers/breadcrumb/breadcrumb';
+import Footer from './app/components/containers/footer/footer';
+import Divider from './app/components/presentational/divider/divider';
+import HeaderContainer from './app/components/containers/header/headerContainer';
+
 import './App.css';
 
-class App extends Component {
+class App extends React.Component {
+  
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div className="container">
+        <HeaderContainer />
+        <Divider />
+        <Breadcrumb />
+        
+        <HeadingTitle />
+        <Button classNameString={'btn btn-default'} href={'#'} title={'You again'}/>
+        
+        <Divider />
+        <Footer />
       </div>
     );
   }
