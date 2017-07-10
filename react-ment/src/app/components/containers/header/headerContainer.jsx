@@ -6,7 +6,7 @@ export default class HeaderContainer extends React.Component {
     render() {
         return (
             <div className="masthead">
-                <h3 className="text-muted">Project name</h3>
+                <h3 className="text-muted">React Mentoring Project</h3>
                 <nav>
                   <ul className="nav nav-justified">
                     <li className="active"><a href="#">Home</a></li>

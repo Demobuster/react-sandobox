@@ -1,4 +1,4 @@
-@import "../styles/vendors/bootstrap/css/bootstrap-theme.min.css";
-@import "../styles/vendors/bootstrap/css/bootstrap.css";
-@import "../styles/vendors/bootstrap/css/bootstrap.min.css";
+@import "./app/styles/vendors/bootstrap/css/bootstrap-theme.min.css";
+@import "./app/styles/vendors/bootstrap/css/bootstrap.css";
+@import "./app/styles/vendors/bootstrap/css/bootstrap.min.css";
 

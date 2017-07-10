@@ -12,5 +12,4 @@ export default class Breadcrumb extends React.Component {
         namesList.push(<BreadcrumbListItem key='3' isActive="active" pageName="Four"/>);
         return <ol className="breadcrumb">{ namesList }</ol>;
     }
-    
 }

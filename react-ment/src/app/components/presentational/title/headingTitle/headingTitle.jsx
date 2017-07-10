@@ -1,15 +1,8 @@
 import React from 'react';
 
-const HeadingTitle = ({heading}) => { 
-    return (<h1 className="display-1">{ heading }</h1>); 
-};
-
-HeadingTitle.propTypes = {
-    heading: React.PropTypes.string
-};
-
-HeadingTitle.defaultProps = {
-    heading: 'DEFAULT_HEADING_TITLE'
-};
+const HeadingTitle = (props) =>
+    {
+        <h1 className="display-1">{ props.heading }</h1>;
+    };
 
 export default HeadingTitle;

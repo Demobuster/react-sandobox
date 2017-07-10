@@ -1,9 +1,9 @@
 import React from 'react';
 
-const BreadcrumbListItem = ({ isActive, pageName }) => 
+const BreadcrumbListItem = (props) =>
     (
-        <li className={"breadcrumb-item" + (isActive !== '' ? " active" : isActive)}>
-            {pageName}
+        <li className={"breadcrumb-item" + (props.isActive !== '' ? " active" : props.isActive)}>
+            {props.pageName}
         </li>
     );
 
