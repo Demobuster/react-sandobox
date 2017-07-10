@@ -1,13 +1,37 @@
 import React from 'react';
+import ProductTile from '../../presentational/productTile/productTile';
 
-export default class MainSearchContainer extends React.Component {
+var PRODUCTS_RESPONSE_MOCK = [
+        {pCode: '00001', prodName: 'Ninja® Professional Blender & Nutri Ninja™ Cups', href: 'http://canadiantire.scene7.com/is/image/CanadianTire/0430692_1?wid=300&hei=400&op_sharpen=1'},
+        {pCode: '00002', prodName: 'RCA LED TV/DVD Combo, 28-in', href: 'http://canadiantire.scene7.com/is/image/CanadianTire/0452100_1?wid=300&hei=400&op_sharpen=1'},
+        {pCode: '00003', prodName: 'Master Chef 4.4 cu.ft. Fridge', href: 'http:////canadiantire.scene7.com/is/image/CanadianTire/0430290_1?wid=300&hei=400&op_sharpen=1'},
+        {pCode: '00004', prodName: 'iRobot Roomba® 630 Vacuum', href: 'http:////canadiantire.scene7.com/is/image/CanadianTire/0436889_1?wid=300&hei=400&op_sharpen=1'},
+        {pCode: '00005', prodName: 'Pelican Summit 100 Sit-In Kayak, 10-ft', href: 'http:////canadiantire.scene7.com/is/image/CanadianTire/0798279_1?wid=300&hei=400&op_sharpen=1'},
+        {pCode: '00006', prodName: 'Coleman Instant Screen House, 15 x 13-ft', href: 'http:////canadiantire.scene7.com/is/image/CanadianTire/0765162_1?wid=300&hei=400&op_sharpen=1'},
+        {pCode: '00007', prodName: 'Coleman Instant Tent, 6-Person', href: 'http:////canadiantire.scene7.com/is/image/CanadianTire/0765162_1?wid=300&hei=400&op_sharpen=1'},
+        {pCode: '00008', prodName: 'Coleman Perfect Pressure Air Mattress', href: 'http:////canadiantire.scene7.com/is/image/CanadianTire/0762921_1?wid=300&hei=400&op_sharpen=1'},
+        {pCode: '00009', prodName: 'Jumptek Round Trampoline with Safety Enclosure, 14-ft', href: 'http:////canadiantire.scene7.com/is/image/CanadianTire/2994884_1?wid=300&hei=400&op_sharpen=1'},
+        {pCode: '00010', prodName: 'Coleman Round Pool, 22-ft', href: 'http:////canadiantire.scene7.com/is/image/CanadianTire/0846692_1?wid=300&hei=400&op_sharpen=1'}
+    ];
+
+class MainSearchContainer extends React.Component {
+    
+    constructor(props) {
+        super(props);
+        this.state = {
+            products: PRODUCTS_RESPONSE_MOCK
+        };
+    }
 
     render() {
-        var products = ["One", "Two", "Three", "Four", "Five", "Six"];
-        var tileArray = products.map(function(product, i) {
-                        return <div id={i} className="col-md-4">{product}</div>;
-                    });
-
-        return <div className="row">{tileArray}</div>;
+        return (
+            <div className="row">
+                {this.state.products.map((item, index) => (
+                    <ProductTile key={index} prod={item}/>
+                ))}
+            </div>
+        );
     }
 }
+
+export default MainSearchContainer;
