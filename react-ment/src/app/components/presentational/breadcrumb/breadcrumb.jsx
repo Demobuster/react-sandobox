@@ -1,5 +1,5 @@
 import React from 'react';
-import BreadcrumbListItem from '../../presentational/list/breadcrumbListItem/breadcrumbListItem.jsx';
+import BreadcrumbListItem from '../list/breadcrumbListItem/breadcrumbListItem.jsx';
 
 export default class Breadcrumb extends React.Component {
     
