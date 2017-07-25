@@ -1,12 +1,10 @@
-export const FILTER__CHECKBOX_CHECKED = 'FILTER__CHECKBOX_CHECKED';
-export const FILTER__CHECKBOX_UNCHECKED = 'FILTER__CHECKBOX_UNCHECKED';
+export const CHECKBOX_CHECKED = 'CHECKBOX_CHECKED';
+export const CHECKBOX_UNCHECKED = 'CHECKBOX_UNCHECKED';
 
-export const FILTER__RADIO_ON = 'FILTER__RADIO_ON';
-export const FILTER__RADIO_OFF = 'FILTER__RADIO_OFF';
+export const RADIO_ON = 'RADIO_ON';
 
-export const FILTER__RESET = 'FILTER__RESET';
+export const RESET_FILTER = 'RESET_FILTER';
 
-export const makeChecked = optionId => ({ type: FILTER__CHECKBOX_CHECKED, data: optionId });
-export const makeUnchecked = optionId => ({ type: FILTER__CHECKBOX_UNCHECKED, data: optionId });
-export const radioOn = optionId => ({ type: FILTER__RADIO_ON, data: optionId });
-export const radioOff = optionId => ({ type: FILTER__RADIO_OFF, data: optionId });
+export const makeChecked = optionId => ({ type: CHECKBOX_CHECKED, data: optionId });
+export const makeUnchecked = optionId => ({ type: CHECKBOX_UNCHECKED, data: optionId });
+export const radioOn = optionId => ({ type: RADIO_ON, data: optionId });

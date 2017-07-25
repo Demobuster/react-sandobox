@@ -1,12 +1,15 @@
 import * as actions from '../actions/headerActions';
 
 const INITIAL_STATE = {
-    activeButtonIndex: 0
-};
+    activeItemIndex: 0
+}
 
 export default function (state = INITIAL_STATE, action = {}) {
     switch (action.type) {
-        case actions.HEADER__ACTIVATE_BUTTON: return { ...state, activeButtonIndex: action.data.activeIndex }
+        case actions.ACTIVATE_BUTTON: {
+            return { ...state, activeItemIndex: action.activeItemIndex }
+        }
+
         default: return state;
     }
 }

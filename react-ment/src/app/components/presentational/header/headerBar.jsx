@@ -1,22 +1,23 @@
 import React from 'react';
+import Button from '../button/button'
 import './header.css';
 
-const HeaderContainer = () => {
-    return (
-        <div className="masthead">
-            <h3 className="text-muted">React Mentoring Project</h3>
-            <nav>
-              <ul className="nav nav-justified">
-                <li className="active"><a href="#">Home</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Downloads</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-            </nav>
-        </div>
-    );
-}
+const HeaderBar = ({ buttons, onButtonClick, activeItemIndex }) => (
+    <div className="masthead">
+        <h3 className="text-muted">React Mentoring Project</h3>
+        <nav>
+            <ul className="nav nav-justified">
+            { buttons.map(function(item, i) {
+                return (
+                    <li key={i} className={`${activeItemIndex === i ? 'active' : ''}`}>
+                        <Button title={item.title} href={item.href} onClick={() => onButtonClick(i)}/>
+                    </li>
+                )
+            })
+            }
+          </ul>
+        </nav>
+    </div>
+)
 
-export default HeaderContainer;
+export default HeaderBar;

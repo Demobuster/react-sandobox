@@ -1,6 +1,5 @@
-import { createStore } from 'react';
-
-import { rootReducer } from './reducers/_rootReducer';
+import { createStore } from 'redux';
+import rootReducer from './app/reducers/_rootReducer';
 
 function configureStore(initialState) {
     const store = createStore(
@@ -11,4 +10,4 @@ function configureStore(initialState) {
     return store;
 }
 
-export default configureStore;
+export default configureStore({});

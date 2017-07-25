@@ -1,13 +1,13 @@
 import { combineReducers } from 'redux';
 
-import { filterReducer } from './reducers/filterReducer';
-import { headerReducer } from './reducers/headerReducer';
-import { searchResultsContainerReducer } from './reducers/searchResultsContainerReducer';
+import FilterReducer from './filterReducer';
+import headerReducer from './headerReducer';
+import SearchResultsContainerReducer from './searchResultsContainerReducer';
 
 const rootReducer = combineReducers({
-    filterReducer,
+    FilterReducer,
     headerReducer,
-    searchResultsContainerReducer
+    SearchResultsContainerReducer
 });
 
 export default rootReducer;
