@@ -1,17 +1,14 @@
 import React from 'react';
 import ProductTile from './productTile/productTile';
 
-class MainSearchContainer extends React.Component {
-
-    render() {
-        return (
-            <div className="row">
-                {this.props.products.map((item, index) => (
-                    <ProductTile key={index} prod={item}/>
-                ))}
-            </div>
-        );
-    }
+const MainSearchContainer = (props) => {
+    return (
+        <div className="row">
+            {props.products.map((item, index) => (
+                <ProductTile key={index} prod={item.field}/>
+            ))}
+        </div>
+    );
 }
 
 export default MainSearchContainer;

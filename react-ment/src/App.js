@@ -3,9 +3,8 @@ import React from 'react';
 import {Breadcrumb, Footer, MasterSearchContainer, Filter,
         SearchBar } from './app/components/presentational/index';
 import HeaderContainer from './app/components/containers/headerContainer/headerContainer';
-import testProducts from './app/mocks/products/testProducts.json';
 import testButtons from './app/mocks/headerTestData.json';
-import filterTestData from './app/mocks/filterTestData.json';
+import testSrpCall from './app/mocks/products/testSrpCall.json';
 
 import './App.css';
 
@@ -20,14 +19,20 @@ class App extends React.Component {
 
                 <div className="container-fluid">
                     <div className="row">
+                        <div className="col-md-4" />
+                        <div className="col-md-8">
+                            <Breadcrumb />
+                            <SearchBar />
+                        </div>
+                    </div>
+                    
+                    <div className="row">
                         <div className="col-md-2">
-                            <Filter data={ filterTestData } />
+                            <Filter data={ testSrpCall.facets } />
                         </div>
 
                         <div className="col-md-10">
-                            <Breadcrumb />
-                            <SearchBar />
-                            <MasterSearchContainer products={ testProducts } />
+                            <MasterSearchContainer products={ testSrpCall.results } />
                         </div>
                     </div>
                 </div>
