@@ -1,0 +1,22 @@
+[
+    {
+        "headingTitle": "Categories",
+        "isCollapsed": true
+    },
+    {
+        "headingTitle": "Brand",
+        "isCollapsed": false
+    },
+    {
+        "headingTitle": "In stock",
+        "isCollapsed": false
+    },
+    {
+        "headingTitle": "Price",
+        "isCollapsed": false
+    },
+    {
+        "headingTitle": "Rating",
+        "isCollapsed": false
+    }
+]

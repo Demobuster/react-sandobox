@@ -12,12 +12,12 @@ const HeaderBar = ({ buttons, onButtonClick, activeItemIndex }) => (
                     <li key={i} className={`${activeItemIndex === i ? 'active' : ''}`}>
                         <Button title={item.title} href={item.href} onClick={() => onButtonClick(i)}/>
                     </li>
-                )
+                );
             })
             }
           </ul>
         </nav>
     </div>
-)
+);
 
 export default HeaderBar;

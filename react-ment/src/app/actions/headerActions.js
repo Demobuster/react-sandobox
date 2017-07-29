@@ -1,2 +1,1 @@
 export const ACTIVATE_BUTTON = 'ACTIVATE_BUTTON';
-

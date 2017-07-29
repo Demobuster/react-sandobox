@@ -1,0 +1,959 @@
+{  
+   "query":{  
+      "total-results":"93"
+   },
+   "custom-fields":{  
+      "template-name":"ct_json_banners_dyn_ATLAS"
+   },
+   "facets":[  
+      {  
+         "facet-title":"Category",
+         "behavior":"c.cat-level-4",
+         "selected":0,
+         "facet-values":[  
+            {  
+               "label":"Adhesives & Sealants",
+               "count":41,
+               "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;q4=Adhesives+%26+Sealants;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3;x4=c.cat-level-4"
+            },
+            {  
+               "label":"Gasket Makers & Sealants",
+               "count":33,
+               "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;q4=Gasket+Makers+%26+Sealants;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3;x4=c.cat-level-4"
+            },
+            {  
+               "label":"Threadlockers & Anti-Seize Lubrication",
+               "count":19,
+               "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;q4=Threadlockers+%26+Anti-Seize+Lubrication;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3;x4=c.cat-level-4"
+            }
+         ]
+      },
+      {  
+         "facet-title":"Pay & Pick Up",
+         "behavior":"show-only-store-selected",
+         "show-only-section":"true",
+         "condition-to-display":"store_selected",
+         "selected":0,
+         "facet-values":[  
+            {  
+               "label":"T",
+               "count":92,
+               "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;q4=T;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3;x4=s.store-is-sellable"
+            }
+         ]
+      },
+      {  
+         "facet-title":"In Stock At My Store",
+         "behavior":"show-only-store-selected",
+         "show-only-section":"true",
+         "condition-to-display":"store_selected",
+         "selected":0,
+         "facet-values":[  
+            {  
+               "label":"F",
+               "count":22,
+               "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;q4=F;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3;x4=s.store-available"
+            },
+            {  
+               "label":"T",
+               "count":71,
+               "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;q4=T;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3;x4=s.store-available"
+            }
+         ]
+      },
+      {  
+         "facet-title":"Price",
+         "behavior":"regional-price-range",
+         "selected":0,
+         "facet-values":[  
+            {  
+               "label":"$0.00 - $24.99",
+               "count":87,
+               "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;q4=%240.00+-+%2424.99;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3;x4=s.regional-price-range"
+            },
+            {  
+               "label":"$25.00 - $49.99",
+               "count":5,
+               "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;q4=%2425.00+-+%2449.99;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3;x4=s.regional-price-range"
+            },
+            {  
+               "label":"$50.00 - $99.99",
+               "count":1,
+               "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;q4=%2450.00+-+%2499.99;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3;x4=s.regional-price-range"
+            }
+         ]
+      },
+      {  
+         "facet-title":"Exclusive Items",
+         "behavior":"show-only",
+         "show-only-section":"true",
+         "selected":0,
+         "facet-values":[  
+            {  
+               "label":"T",
+               "count":1,
+               "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;q4=T;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3;x4=exclusive"
+            }
+         ]
+      },
+      {  
+         "facet-title":"Ratings Range",
+         "behavior":"ratings_range",
+         "selected":0,
+         "facet-values":[  
+            {  
+               "label":"5",
+               "count":9,
+               "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;q4=5;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3;x4=ratings_range"
+            },
+            {  
+               "label":"4",
+               "count":26,
+               "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;q4=4;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3;x4=ratings_range"
+            },
+            {  
+               "label":"3",
+               "count":26,
+               "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;q4=3;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3;x4=ratings_range"
+            },
+            {  
+               "label":"2",
+               "count":27,
+               "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;q4=2;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3;x4=ratings_range"
+            },
+            {  
+               "label":"1",
+               "count":30,
+               "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;q4=1;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3;x4=ratings_range"
+            }
+         ]
+      },
+      {  
+         "facet-title":"Brand Name",
+         "behavior":"brand",
+         "selected":0,
+         "facet-values":[  
+            {  
+               "label":"Amazing Goop",
+               "count":2,
+               "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;q4=Amazing+Goop;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3;x4=brand"
+            },
+            {  
+               "label":"BWD",
+               "count":1,
+               "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;q4=BWD;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3;x4=brand"
+            },
+            {  
+               "label":"Dorman",
+               "count":4,
+               "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;q4=Dorman;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3;x4=brand"
+            },
+            {  
+               "label":"E6000",
+               "count":1,
+               "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;q4=E6000;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3;x4=brand"
+            },
+            {  
+               "label":"Form-A-Gasket",
+               "count":2,
+               "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;q4=Form-A-Gasket;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3;x4=brand"
+            },
+            {  
+               "label":"J-B Weld",
+               "count":18,
+               "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;q4=J-B+Weld;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3;x4=brand"
+            },
+            {  
+               "label":"Kwik",
+               "count":2,
+               "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;q4=Kwik;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3;x4=brand"
+            },
+            {  
+               "label":"Lumax",
+               "count":2,
+               "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;q4=Lumax;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3;x4=brand"
+            },
+            {  
+               "label":"MotoMaster",
+               "count":1,
+               "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;q4=MotoMaster;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3;x4=brand"
+            },
+            {  
+               "label":"Motoseal",
+               "count":1,
+               "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;q4=Motoseal;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3;x4=brand"
+            },
+            {  
+               "label":"National",
+               "count":3,
+               "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;q4=National;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3;x4=brand"
+            },
+            {  
+               "label":"Permatex",
+               "count":50,
+               "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;q4=Permatex;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3;x4=brand"
+            },
+            {  
+               "label":"Permatex Ultra",
+               "count":1,
+               "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;q4=Permatex+Ultra;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3;x4=brand"
+            },
+            {  
+               "label":"QBOND",
+               "count":1,
+               "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;q4=QBOND;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3;x4=brand"
+            },
+            {  
+               "label":"Right Stuff",
+               "count":3,
+               "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;q4=Right+Stuff;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3;x4=brand"
+            },
+            {  
+               "label":"Ultrabond",
+               "count":1,
+               "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;q4=Ultrabond;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3;x4=brand"
+            }
+         ]
+      },
+      {  
+
+      }
+   ],
+   "menus":[  
+      {  
+         "name":"sortBy",
+         "label":"Sort By",
+         "type":"sort",
+         "items":[  
+            {  
+               "value":true,
+               "label":"Relevance",
+               "link":"?count=36;format=json;index=product;lang=en;m_ct_sort=relevance;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3"
+            },
+            {  
+               "value":false,
+               "label":"Product Name (A-Z)",
+               "link":"?count=36;format=json;index=product;lang=en;m_ct_sort=prod-name;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3"
+            },
+            {  
+               "value":false,
+               "label":"Product Name (Z-A)",
+               "link":"?count=36;format=json;index=product;lang=en;m_ct_sort=prod-name-desc;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3"
+            },
+            {  
+               "value":false,
+               "label":"Rating (high - low)",
+               "link":"?count=36;format=json;index=product;lang=en;m_ct_sort=sort-rating-desc;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3"
+            },
+            {  
+               "value":false,
+               "label":"Price (low - high)",
+               "link":"?count=36;format=json;index=product;lang=en;m_ct_sort=national-sort-price;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3"
+            },
+            {  
+               "value":false,
+               "label":"Price (high - low)",
+               "link":"?count=36;format=json;index=product;lang=en;m_ct_sort=national-sortprice-r;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3"
+            }
+         ]
+      }
+   ],
+   "banners":[  
+      {  
+         "area":"top",
+         "content":""
+      }
+   ],
+   "breadcrumbs":{  
+      "goto":[  
+         {  
+            "label":"",
+            "link":"?count=36;format=json;index=product;lang=en;q=*;site=ct;store=0259",
+            "value":"*"
+         },
+         {  
+            "label":"Department",
+            "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;site=ct;store=0259;x1=c.cat-level-1",
+            "value":"Automotive"
+         },
+         {  
+            "label":"Category",
+            "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2",
+            "value":"Car Care"
+         },
+         {  
+            "label":"Subcategory",
+            "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3",
+            "value":"Adhesives & Sealants"
+         }
+      ],
+      "remove":[  
+         {  
+            "label":"",
+            "link":"?count=36;format=json;index=product;lang=en;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3",
+            "value":"*"
+         },
+         {  
+            "label":"Department",
+            "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Car+Care;q2=Adhesives+%26+Sealants;site=ct;store=0259;x1=c.cat-level-2;x2=c.cat-level-3",
+            "value":"Automotive"
+         },
+         {  
+            "label":"Category",
+            "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Adhesives+%26+Sealants;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-3",
+            "value":"Car Care"
+         },
+         {  
+            "label":"Subcategory",
+            "link":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2",
+            "value":"Adhesives & Sealants"
+         }
+      ]
+   },
+   "suggestions":{  
+      "auto-searched":"0",
+      "orig-query":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3",
+      "suggestions-low-results":"0",
+      "suggestion-items":[  
+
+      ]
+   },
+   "pagination":{  
+      "total":3,
+      "first":"",
+      "last":"?count=36;format=json;index=product;lang=en;page=3;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3",
+      "previous":"",
+      "next":"?count=36;format=json;index=product;lang=en;page=2;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3",
+      "pages":[  
+         {  
+            "position":1,
+            "selected":true,
+            "queryString":"?count=36;format=json;index=product;lang=en;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3"
+         },
+         {  
+            "position":2,
+            "selected":false,
+            "queryString":"?count=36;format=json;index=product;lang=en;page=2;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3"
+         },
+         {  
+            "position":3,
+            "selected":false,
+            "queryString":"?count=36;format=json;index=product;lang=en;page=3;q=*;q1=Automotive;q2=Car+Care;q3=Adhesives+%26+Sealants;site=ct;store=0259;x1=c.cat-level-1;x2=c.cat-level-2;x3=c.cat-level-3"
+         }
+      ]
+   },
+   "results":[  
+      {  
+         "field":{  
+            "prod-id":"0138000P",
+            "clearance":"F",
+            "features":"<ul><li>National Oil Seal features a low swell in hydrocarbon fluids</li><li>Design type: spring loaded; multi-lip</li><li>Temperature range: -40°F to 225°F; -40°C to 107°C</li><li>Delivers quality and reliable performance for every type of repair</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/national-oil-seal-front-0138000p.html",
+            "pdp-url":"/en/pdp/national-oil-seal-front-0138000p.html",
+            "prod-name":"National Oil Seal, Front",
+            "record-type":"product",
+            "sku-id":"0138000|0138001|0138002|0138005|0138006|0138007|0138008|0138013|0138014|0138018|0138019|0138023|0138030|0138033|0138036|0138041|0138046|0138047|0138055|0138056|0138057|0138060|0138061|0138062|0138064|0138066|0138067|0138068|0138070|0138071|0138072|0138073|0138074|0138077|0138078|0138081|0138082|0138083|0138085|0138086|0138088|0138089|0138090|0138093|0138094|0138095|0138096|0138097|0138200|0138201|0138202|0138205|0138206|0138207|0138208|0138209|0138211|0138212|0138214|0138215|0138216|0138218|0138219|0138220|0138221|0138222|0138223|0138227|0138229|0138231|0138232|0138233|0138235|0138239|0138242|0138243|0138246|0138249|0138250|0138252|0138253|0138254|0138256|0138258|0138259|0138260|0138261|0138262|0138263|0138268|0138269|0138270|0138271|0138272|0138274|0138277|0138278|0138280|0138282|0138284|0138287|0138288|0138289|0138290|0138291|0138292|0138298|0138299|0138300|0138301|0138303|0138306|0138308|0138309|0138310|0138311|0138312|0138314|0138316|0138320|0138321|0138322|0138326|0138328|0138330|0138331|0138332|0138335|0138356|0138384|0138386|0138419|0138422|0138423|0138424|0138427|0138428|0138429|0138513|0138515|0138517|0138518|0138519|0138520|0138525|0138538|0138559|0161220|0161229|0161248|0161268|0161271|0161275|0161276|0161277|0161280|0161313|0161314|0161315|0161316|0161317|0161328|0161344|0161347|0161355|0161356|0161357|0161358|0161359|0161360|0161367|0161372|0161375|0163860|0163861|0163863",
+            "sku-number":"13-8000-2|13-8001-0|13-8002-8|13-8005-2|13-8006-0|13-8007-8|13-8008-6|13-8013-2|13-8014-0|13-8018-2|13-8019-0|13-8023-8|13-8030-0|13-8033-4|13-8036-8|13-8041-4|13-8046-4|13-8047-2|13-8055-2|13-8056-0|13-8057-8|13-8060-8|13-8061-6|13-8062-4|13-8064-0|13-8066-6|13-8067-4|13-8068-2|13-8070-4|13-8071-2|13-8072-0|13-8073-8|13-8074-6|13-8077-0|13-8078-8|13-8081-8|13-8082-6|13-8083-4|13-8085-0|13-8086-8|13-8088-4|13-8089-2|13-8090-6|13-8093-0|13-8094-8|13-8095-6|13-8096-4|13-8097-2|13-8200-6|13-8201-4|13-8202-2|13-8205-6|13-8206-4|13-8207-2|13-8208-0|13-8209-8|13-8211-0|13-8212-8|13-8214-4|13-8215-2|13-8216-0|13-8218-6|13-8219-4|13-8220-8|13-8221-6|13-8222-4|13-8223-2|13-8227-4|13-8229-0|13-8231-2|13-8232-0|13-8233-8|13-8235-4|13-8239-6|13-8242-6|13-8243-4|13-8246-8|13-8249-2|13-8250-6|13-8252-2|13-8253-0|13-8254-8|13-8256-4|13-8258-0|13-8259-8|13-8260-2|13-8261-0|13-8262-8|13-8263-6|13-8268-6|13-8269-4|13-8270-8|13-8271-6|13-8272-4|13-8274-0|13-8277-4|13-8278-2|13-8280-4|13-8282-0|13-8284-6|13-8287-0|13-8288-8|13-8289-6|13-8290-0|13-8291-8|13-8292-6|13-8298-4|13-8299-2|13-8300-8|13-8301-6|13-8303-2|13-8306-6|13-8308-2|13-8309-0|13-8310-4|13-8311-2|13-8312-0|13-8314-6|13-8316-2|13-8320-0|13-8321-8|13-8322-6|13-8326-8|13-8328-4|13-8330-6|13-8331-4|13-8332-2|13-8335-6|13-8356-6|13-8384-8|13-8386-4|13-8419-8|13-8422-8|13-8423-6|13-8424-4|13-8427-8|13-8428-6|13-8429-4|13-8513-2|13-8515-8|13-8517-4|13-8518-2|13-8519-0|13-8520-4|13-8525-4|13-8538-4|13-8559-4|16-1220-4|16-1229-6|16-1248-0|16-1268-2|16-1271-2|16-1275-4|16-1276-2|16-1277-0|16-1280-0|16-1313-4|16-1314-2|16-1315-0|16-1316-8|16-1317-6|16-1328-0|16-1344-0|16-1347-4|16-1355-4|16-1356-2|16-1357-0|16-1358-8|16-1359-6|16-1360-0|16-1367-6|16-1372-2|16-1375-6|16-3860-8|16-3861-6|16-3863-2",
+            "sku-part-number":"710065|1126|223255|473214|2655|225673|1108|710309|1177|710097|229522|334111|19214|474134|710305|225225|8312|22020|1984|4131|415960|17037|710092|4762N|710323|5695|710120|710058|19793|1960|2007N|710218|710240|1974|2002|223550|4795V|7412S|1174|9178S|17782|224872|9150S|14704|99187|99152|3732S|99181|19013|710094|710175|3896|5121|710096|8974S|1950|710477|710467|7692S|7300S|7038SA|4072N|710107|710168|710073|223540|1987|710435|455086|710570|710571|710573|20445|3747|470380|7044NA|710110|2286|722109|27452|2300|722108|15825|710057|6840S|710046|370047A|99155|2025|4899|710292|225410|224840|712551|224235|710193|224570|710569|710070|8121S|223840|3553|7934S|710202|710204|710626|710091|710106|550231|710459|4532N|710584|225005|710044|710045|710229|710231|710230|4189H|8594S|2443|7687S|17742|350609|41257|4615V|331228H|710648|8516N|9912|331107N|6712NA|18970|1948|4148|3945|4160|5698|8695S|15820|4250|1953|5699|224820|1213N|714670|3214|472572|1036|99176|341022|710102|710108|5686|710093|222742|710239|1975|710127|710393|4898|710601|8430S|100357|24642|710392|710225|710478|710255|710256|710764|710785|710807|4333N|710430|710105",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0138000_1",
+            "product-tags":"product-tags:automotive/car-care/car-adhesives-sealants|Car Adhesives & Sealants|Car Adhesives & Sealants||specification-tags:ps-asa|PS_ASA|PS_ASA|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0245446P",
+            "clearance":"F",
+            "features":"<ul><li>Dorman HELP! Viton O-Ring is ideal for a wide range of automotive repair jobs</li><li>Suitable for a variety of household, industrial and commercial uses</li><li>Universal - fits all makes and models</li><li>Made of durable Viton material</li><li>Inside diameter: 1/8\" - 3/4\"</li><li>Outside diameter: 1/4\" - 15/16\"</li><li>Thickness: 1/16\" - 1/8\"</li><li>Includes 18 per pack</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/dorman-help-viton-o-ring-universal-assortment-18-pk-0245446p.html",
+            "pdp-url":"/en/pdp/dorman-help-viton-o-ring-universal-assortment-18-pk-0245446p.html",
+            "prod-name":"Dorman HELP! Viton O-Ring, Universal, Assortment, 18-pk",
+            "record-type":"product",
+            "sku-id":"0245446",
+            "sku-number":"24-5446-4",
+            "sku-part-number":"80020",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0245446_1",
+            "product-tags":"product-tags:automotive/car-care/gasket-makers-sealers|Gasket Makers & Sealers|Gasket Makers & Sealers||specification-tags:ps-asa|PS_ASA|PS_ASA|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0382517P",
+            "clearance":"F",
+            "features":"<ul><li>Permatex Anaerobic Flange Sealant is a flexible gasket sealant for flanges that move in service</li><li>Use for gasketing close fitting rigid-machined flanges with gaps of 0.25 mm (0.01”) unprimed; 1.27 mm (0.05”) with primer</li><li>Eliminates the need for pre-formed, pre-cut, paper, rubber or cork gaskets</li><li>Superior resistance to powertrain fluids including engine oil, transmission fluid, gear lube, coolants, gasoline</li><li>High reliability sealing</li><li>Long term durability</li><li>Temperature range -51°C to 150°C (-60°F to 300°F)</li><li>Applications: Water pumps, thermostat housings, transmission pans, transmission case covers, transaxle casings, o-ring replacement</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/permatex-anaerobic-flange-sealant-50-ml-0382517p.html",
+            "pdp-url":"/en/pdp/permatex-anaerobic-flange-sealant-50-ml-0382517p.html",
+            "prod-name":"Permatex Anaerobic Flange Sealant, 50 mL",
+            "record-type":"product",
+            "sku-id":"0382517",
+            "sku-number":"38-2517-2",
+            "sku-part-number":"17369",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0382517_1",
+            "product-tags":"product-tags:automotive/car-care/gasket-makers-sealers|Gasket Makers & Sealers|Gasket Makers & Sealers|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0382520P",
+            "clearance":"F",
+            "features":"<ul><li>Medium Strength Blue Threadlocker lockes threaded fasteners against vibration lossening</li><li>Designed for fasteners 1/4\" to 3/4\" (6 to 20 mm)</li><li>Removable strength, general purpose threadlocker</li><li>OEM specified</li><li>Temperature range: -54°C to 150°C (-65°F to 300°F)</li><li>36 mL</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/permatex-medium-strength-blue-threadlocker-36ml-0382520p.html",
+            "pdp-url":"/en/pdp/permatex-medium-strength-blue-threadlocker-36ml-0382520p.html",
+            "prod-name":"Permatex Medium Strength Blue Threadlocker, 36mL",
+            "record-type":"product",
+            "sku-id":"0382520",
+            "sku-number":"38-2520-2",
+            "sku-part-number":"0382520",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0382520_1",
+            "product-tags":"product-tags:automotive/car-care/threadlockers-anti-seize-lubricants|Threadlockers & Anti-Seize Lubricants|Threadlockers & Anti-Seize Lubricants|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0382521P",
+            "clearance":"F",
+            "features":"<ul><li>Ideal for securing loose trim, repairing tears in seats, floor mats and hoses</li><li>A versatile, multi-purpose, single component adhesive/sealant</li><li>Non-toxic, non-flammable and provides a permanent, waterproof seal</li><li>No mixing, ready to use</li><li>Powerful bond without nasty fumes</li><li>Applications: Works on metal, fiberglass, glass, leather, plastic, vinyl, rubber, wood, ceramic, fabric and many other surfaces</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/permatex-pit-crew-s-choice-adhesive-sealant-0382521p.html",
+            "pdp-url":"/en/pdp/permatex-pit-crew-s-choice-adhesive-sealant-0382521p.html",
+            "prod-name":"Permatex Pit Crew's Choice Adhesive/Sealant",
+            "record-type":"product",
+            "sku-id":"0382521",
+            "sku-number":"38-2521-0",
+            "sku-part-number":"25832",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0382521_1",
+            "product-tags":"product-tags:automotive/car-care/car-adhesives-sealants|Car Adhesives & Sealants|Car Adhesives & Sealants|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0383718P",
+            "clearance":"F",
+            "features":"<ul><li>Better then super glue for bonding parts with large gaps</li><li>Can be drilled, machined, filed and painted</li><li>Resists most liquids including fuels and solvents</li><li>Cream appearance</li><li>Sets in approximately 5 minutes</li><li>Permanent strength - up to 3500 PSI</li><li>Temperature range: -51°C to 121°C (-60°F to 250°F)</li><li>Applications: Bonds most plastic, interior trim, fills cracks, plastic to vinyl, ABS, acrylic, fiberglass, glass, PVC, steel, styrene, vinyl, wood</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/permapoxy-5-minute-plastic-weld-0383718p.html",
+            "pdp-url":"/en/pdp/permapoxy-5-minute-plastic-weld-0383718p.html",
+            "prod-name":"PermaPoxy 5 Minute Plastic Weld",
+            "record-type":"product",
+            "sku-id":"0383718",
+            "sku-number":"38-3718-8",
+            "sku-part-number":"84125",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0383718_1",
+            "product-tags":"product-tags:automotive/car-care/car-adhesives-sealants|Car Adhesives & Sealants|Car Adhesives & Sealants|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0383722P",
+            "clearance":"F",
+            "features":"<ul><li>OEM specified, approved for dealership warranty requirements</li><li>Sensor-safe and non-corrosive</li><li>Will not contaminate oxygen sensors or corrode other electronic engine components</li><li>Superior adhesion to oily surfaces with long term durability</li><li>Superior resistance to powertrain fluids including engine oil, transmission fluid, gear lube and coolants</li><li>Eliminates the need for pre-formed, pre-cut, paper, rubber or cork gaskets</li><li>Temperature range -54°C to 260°C (-65°F to 500°F) intermittent</li><li>Applications: Valve covers, oil pans, intake manifold end seals, timing covers, transmission pans</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/ultra-black-rtv-gasket-maker-80ml-0383722p.html",
+            "pdp-url":"/en/pdp/ultra-black-rtv-gasket-maker-80ml-0383722p.html",
+            "prod-name":"Ultra Black RTV Gasket Maker, 80ml",
+            "record-type":"product",
+            "sku-id":"0383722",
+            "sku-number":"38-3722-6",
+            "sku-part-number":"59803",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0383722_1",
+            "product-tags":"product-tags:automotive/car-care/gasket-makers-sealers|Gasket Makers & Sealers|Gasket Makers & Sealers|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0382526P",
+            "clearance":"F",
+            "features":"<ul><li>Permatex High Performance Thread Sealant is OEM specified</li><li>Locks and seals threaded fittings, resists leakage and vibration loosening</li><li>Formulated specifically for metal, tapered pipe thread fittings</li><li>Replaces Teflon® tape and pipe dopes</li><li>Cures rapidly to withstand 10,000 PSI</li><li>Prevents galling and protects mated threaded areas from rust and corrosion</li><li>Resists all auto shop fluids, fuels and gases</li><li>Paste formulation seals larger diameter fittings and won’t run</li><li>Temperature range up to 150°C (300°F)</li><li>Applications: Stainless steel fittings, head bolts into through holes, oil PSI sending units/sensors, oil and coolant lines, intake manifold switches, rear axle fill plug, fuel fittings</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/permatex-high-performance-thread-sealant-50-ml-0382526p.html",
+            "pdp-url":"/en/pdp/permatex-high-performance-thread-sealant-50-ml-0382526p.html",
+            "prod-name":"Permatex High Performance Thread Sealant, 50 mL",
+            "record-type":"product",
+            "sku-id":"0382526",
+            "sku-number":"38-2526-0",
+            "sku-part-number":"0382526",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0382526_1",
+            "product-tags":"product-tags:automotive/car-care/gasket-makers-sealers|Gasket Makers & Sealers|Gasket Makers & Sealers|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0383728P",
+            "clearance":"F",
+            "features":"<ul><li>Permatex® Single-Use Anti-Seize Lubricant is a highly refined blend of aluminum, copper and graphite</li><li>Use for easy assembly and disassembly of metal parts</li><li>Prevents galling during assembly</li><li>Enables easier disassembly of parts exposed to high temperatures</li><li>Prevents rusting, cold welding and galvanic corrosion between assembled parts</li><li>Resists most chemical and acid solutions, road salt, salt water, steam</li><li>Temperature range: -54°C to 870°C (-65°F to 1600°F)</li><li>USA Mil-Spec 907E (excluding aerosol)</li><li>Applications: Prevent seizing of exhaust system threads, spark plug threads, wheel studs, U-bolts, spring bolts, torque rod and pins, and similar automotive and marine applications</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/permatex-single-use-anti-seize-lubricant-0383728p.html",
+            "pdp-url":"/en/pdp/permatex-single-use-anti-seize-lubricant-0383728p.html",
+            "prod-name":"Permatex® Single-Use Anti-Seize Lubricant",
+            "record-type":"product",
+            "sku-id":"0383728",
+            "sku-number":"38-3728-4",
+            "sku-part-number":"31875",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0383728_1",
+            "product-tags":"product-tags:automotive/car-care/threadlockers-anti-seize-lubricants|Threadlockers & Anti-Seize Lubricants|Threadlockers & Anti-Seize Lubricants|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0382529P",
+            "clearance":"F",
+            "features":"<ul><li>Permatex Copper Anti-Seize is premium formula copper anti-seize</li><li>Contains a high percentage of micro-fine copper flakes in a semi-synthetic grease carrier</li><li>Electrically conductive</li><li>For easy assembly and disassembly of metal parts</li><li>Prevents galling during assembly</li><li>Inhibits rusting, cold welding and galvanic corrosion between assembled parts</li><li>Effective at high temperatures up to 982°C (1800°F)</li><li>USA Mil-Spec 907E</li><li>Applications: Spark plug threads installed in aluminum, exhaust manifold bolts, engine bolts, oxygen sensors, knock sensors, thermostat housing bolts, fuel filter fittings and battery cable connections</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/permatex-copper-anti-seize-454g-0382529p.html",
+            "pdp-url":"/en/pdp/permatex-copper-anti-seize-454g-0382529p.html",
+            "prod-name":"Permatex Copper Anti-Seize, 454g",
+            "record-type":"product",
+            "sku-id":"0382529",
+            "sku-number":"38-2529-4",
+            "sku-part-number":"0382529",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0382529_1",
+            "product-tags":"product-tags:automotive/car-care/threadlockers-anti-seize-lubricants|Threadlockers & Anti-Seize Lubricants|Threadlockers & Anti-Seize Lubricants|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0382537P",
+            "clearance":"F",
+            "features":"<ul><li>Nickel based anti-seize protects metal parts and fittings against corrosion, seizure and galling</li><li>Protects from -51 to 1371°C (-60 to 2,500°F)</li><li>Ideally for the user requiring superior anti-seizing protection</li><li>227 g</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/motomaster-nickel-based-anti-seize-0382537p.html",
+            "pdp-url":"/en/pdp/motomaster-nickel-based-anti-seize-0382537p.html",
+            "prod-name":"MotoMaster Nickel Based Anti-Seize",
+            "record-type":"product",
+            "sku-id":"0382537",
+            "sku-number":"38-2537-4",
+            "sku-part-number":"MMC-78-227",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0382537_1",
+            "product-tags":"product-tags:automotive/car-care/threadlockers-anti-seize-lubricants|Threadlockers & Anti-Seize Lubricants|Threadlockers & Anti-Seize Lubricants||product-tags:motomaster/motomaster-lubricants|Motomaster Lubricants|Motomaster Lubricants|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0383739P",
+            "clearance":"F",
+            "features":"<ul><li>Ultra Copper® RTV High-Temp Gasket Maker is OEM specified</li><li>Sensor-safe & non-corrosive</li><li>Will not contaminate oxygen sensors or corrode other electronic engine components</li><li>Superior adhesion to oily surfaces with long term durability</li><li>Designed for high performance engines or where operating temperatures are higher</li><li>Superior resistance to powertrain fluids including engine oil, transmission fluid, gear lube and coolants</li><li>Temperature range -60°C to 371°C (-75°F to 700°F) intermittent</li><li>Applications: Exhaust manifolds/headers, valve covers, oil pans, timing covers, water pumps, thermostat housings</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/ultra-copper-rtv-high-temp-gasket-maker-300-ml-0383739p.html",
+            "pdp-url":"/en/pdp/ultra-copper-rtv-high-temp-gasket-maker-300-ml-0383739p.html",
+            "prod-name":"Ultra Copper® RTV High-Temp Gasket Maker, 300 mL",
+            "record-type":"product",
+            "sku-id":"0383739",
+            "sku-number":"38-3739-8",
+            "sku-part-number":"82751",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0383739_1",
+            "product-tags":"product-tags:automotive/car-care/gasket-makers-sealers|Gasket Makers & Sealers|Gasket Makers & Sealers|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0383746P",
+            "clearance":"F",
+            "features":"<ul><li>Permatex Super Weatherstrip Adhesive</li><li>Permanently bonds all types of weather stripping and can also be used for general purpose bonding including gaskets</li><li>Allows quick bonding yet maintains enough versatility in tack to allow large areas to be spread and bonded at one time</li><li>Black formula blends with weather stripping for less clean-up</li><li>Withstands extremes temperature</li><li>Resistant to gasoline, kerosene, anti-freeze and most solvents</li><li>Applications: Cut gaskets, carpeting, mouldings, foam, vinyl, fabric-backed vinyl upholstery, headliners</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/permatex-super-weatherstrip-adhesive-59-ml-0383746p.html",
+            "pdp-url":"/en/pdp/permatex-super-weatherstrip-adhesive-59-ml-0383746p.html",
+            "prod-name":"Permatex Super Weatherstrip Adhesive, 59 mL",
+            "record-type":"product",
+            "sku-id":"0383746",
+            "sku-number":"38-3746-0",
+            "sku-part-number":"80539",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0383746_1",
+            "product-tags":"product-tags:automotive/car-care/car-adhesives-sealants|Car Adhesives & Sealants|Car Adhesives & Sealants|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0383709P",
+            "clearance":"F",
+            "features":"<ul><li>Permatex Flowable Silicone Glass & Windshield Sealer is a flowable, clear RTV silicone adhesive/sealant</li><li>Specially formulated to flow into hard-to-reach or hidden areas to seal, bond, insulate or caulk</li><li>Flexible, durable, tough, waterproof</li><li>Temperature range: -62°C to 260°C (-80°F to 450°F)</li><li>Applications: Seal and waterproof around windshields, sunroofs, headlamp assemblies, marine glass, heater boxes, door frames, RV vents and windows, vinyl roofs and seams</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/permatex-flowable-silicone-glass-windshield-sealer-42g-0383709p.html",
+            "pdp-url":"/en/pdp/permatex-flowable-silicone-glass-windshield-sealer-42g-0383709p.html",
+            "prod-name":"Permatex Flowable Silicone Glass & Windshield Sealer, 42g",
+            "record-type":"product",
+            "sku-id":"0383709",
+            "sku-number":"38-3709-0",
+            "sku-part-number":"19752",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0383709_1",
+            "product-tags":"product-tags:automotive/car-care/car-adhesives-sealants|Car Adhesives & Sealants|Car Adhesives & Sealants|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0383804P",
+            "clearance":"F",
+            "features":"<ul><li>J-B Weld Kwik Weld Epoxy Syringe is great for household repairs, automotive, plumbing and more</li><li>Syringe application provides no waste and no messy caps</li><li>Offers the strength of 2424 psi</li><li>Sets in 6 minutes, cures in 4-6 hours</li><li>25 mL</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/jb-weld-kwik-weld-epoxy-syringe-25-ml-0383804p.html",
+            "pdp-url":"/en/pdp/jb-weld-kwik-weld-epoxy-syringe-25-ml-0383804p.html",
+            "prod-name":"JB Weld Kwik Weld Epoxy Syringe, 25 mL",
+            "record-type":"product",
+            "sku-id":"0383804",
+            "sku-number":"38-3804-2",
+            "sku-part-number":"50176F",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0383804_1",
+            "product-tags":"product-tags:automotive/car-care/car-adhesives-sealants|Car Adhesives & Sealants|Car Adhesives & Sealants|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0383808P",
+            "clearance":"F",
+            "features":"<ul><li>J-B Weld Marine Syringe is a specially formulated two-part marine and cold weld adhesive system</li><li>Provides strong, lasting repairs for bonding different or similar surfaces</li><li>Ideal for use on aluminum, metal, composites and fibreglass</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/j-b-weld-marine-syringe-25-ml-0383808p.html",
+            "pdp-url":"/en/pdp/j-b-weld-marine-syringe-25-ml-0383808p.html",
+            "prod-name":"J-B Weld Marine Syringe, 25 mL",
+            "record-type":"product",
+            "sku-id":"0383808",
+            "sku-number":"38-3808-4",
+            "sku-part-number":"50172F",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0383808_1",
+            "product-tags":"product-tags:automotive/car-care/car-adhesives-sealants|Car Adhesives & Sealants|Car Adhesives & Sealants|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0382518P",
+            "clearance":"F",
+            "features":"<ul><li>Forms a tough, permanent bond on contact</li><li>Instantly bonds metal, wood, ceramic, leather, rubber and many other surfaces</li><li>Also bonds leather and vinyl to metal</li><li>Heat and water resistant</li><li>No clamping required</li><li>Easy to follow instructions</li><li>Applications: Weather stripping, rubber mats, carpeting, metal, wood, ceramic, leather, rubber and many other surfaces</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/permatex-contact-cement-0382518p.html",
+            "pdp-url":"/en/pdp/permatex-contact-cement-0382518p.html",
+            "prod-name":"Permatex Contact Cement",
+            "record-type":"product",
+            "sku-id":"0382518",
+            "sku-number":"38-2518-0",
+            "sku-part-number":"31862",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0382518_1",
+            "product-tags":"product-tags:automotive/car-care/car-adhesives-sealants|Car Adhesives & Sealants|Car Adhesives & Sealants|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0382525P",
+            "clearance":"F",
+            "features":"<ul><li>Permatex Gear Oil RTV Gasket Maker is OEM specified</li><li>Specially formulated for differentials and transfer cases</li><li>Withstands gear oil friction modifiers</li><li>Provides leak proof sealing</li><li>Sensor safe, non-toxic, non-flammable and low odour</li><li>Use as a gasket or sealant</li><li>Good adhesion and flexibility</li><li>Temperature range: -54°C to 260°C (-65°F to 500°F)</li><li>Applications: Differentials and transfer cases</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/permatex-gear-oil-rtv-gasket-maker-80-ml-0382525p.html",
+            "pdp-url":"/en/pdp/permatex-gear-oil-rtv-gasket-maker-80-ml-0382525p.html",
+            "prod-name":"Permatex Gear Oil RTV Gasket Maker, 80 mL",
+            "record-type":"product",
+            "sku-id":"0382525",
+            "sku-number":"38-2525-2",
+            "sku-part-number":"31872",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0382525_1",
+            "product-tags":"product-tags:automotive/car-care/gasket-makers-sealers|Gasket Makers & Sealers|Gasket Makers & Sealers|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0382540P",
+            "clearance":"F",
+            "features":"<ul><li>High-heat epoxy putty stick adhesive provides a strength of 800 PSI at room temperature, and 600 PSI at 400°F</li><li>Able to withstand continuous heat up to 450°F, and intermittent heat up to 500°F</li><li>Three times stronger than conventional putty in higher temperature environments</li><li>Great for exhaust manifolds, tail pipes, mufflers, engine blocks, duct work, machinery and high temperature projects</li><li>576 g</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/j-b-weld-high-heat-epoxy-putty-stick-0382540p.html",
+            "pdp-url":"/en/pdp/j-b-weld-high-heat-epoxy-putty-stick-0382540p.html",
+            "prod-name":"J-B Weld High-Heat Epoxy Putty Stick",
+            "record-type":"product",
+            "sku-id":"0382540",
+            "sku-number":"38-2540-4",
+            "sku-part-number":"8297F",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0382540_1",
+            "product-tags":"product-tags:automotive/car-care/car-adhesives-sealants|Car Adhesives & Sealants|Car Adhesives & Sealants|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0383741P",
+            "clearance":"F",
+            "features":"<ul><li>OEM specified high strength threadlocker for heavy-duty applications</li><li>Designed for locking fasteners 3/8” to 1” (10mm to 25mm)</li><li>Well suited for permanently locking studs and press fits</li><li>Adds 3000 PSI holding power on slip and press fit assemblies</li><li>Protects threads from corrosion and prevents vibration loosening</li><li>Temperature range: -54°C to 150°C (-65°F to 300°F)</li><li>May require heat or special tools for removal</li><li>Applications: Shock mounts, suspension bolts and studs, cylinder block studs, rocker arm studs, ring gear bolts, frame bolts and similar fasteners subject to higher shock and vibration</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/permatex-red-high-strength-thread-locker-0383741p.html",
+            "pdp-url":"/en/pdp/permatex-red-high-strength-thread-locker-0383741p.html",
+            "prod-name":"Permatex RED High Strength Thread locker",
+            "record-type":"product",
+            "sku-id":"0383741",
+            "sku-number":"38-3741-0",
+            "sku-part-number":"27115",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0383741_1",
+            "product-tags":"product-tags:automotive/car-care/threadlockers-anti-seize-lubricants|Threadlockers & Anti-Seize Lubricants|Threadlockers & Anti-Seize Lubricants|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0383771P",
+            "clearance":"F",
+            "features":"<ul><li>Gel formula super glue</li><li>Superior performance and strength</li><li>Gel formula works better on more porous materials</li><li>Better choice than epoxies for bonding parts with little or no gap</li><li>Makes durable, clear bonds</li><li>Temperature range: -54°C to 82°C (-65°F to 180°F)</li><li>Applications: Rubber, metal, wood, ceramic, porcelain, leather, vinyl, paper, cork, fabric and most plastics</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/ultrabond-gel-adhesive-0383771p.html",
+            "pdp-url":"/en/pdp/ultrabond-gel-adhesive-0383771p.html",
+            "prod-name":"Ultrabond Gel Adhesive",
+            "record-type":"product",
+            "sku-id":"0383771",
+            "sku-number":"38-3771-8",
+            "sku-part-number":"0383771",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0383771_1",
+            "product-tags":"product-tags:automotive/car-care/car-adhesives-sealants|Car Adhesives & Sealants|Car Adhesives & Sealants|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0383772P",
+            "clearance":"F",
+            "features":"<ul><li>Permanent, high strength thread locker</li><li>Designed for locking fasteners 3/8\" to 1\" (10 mm to 25mm)</li><li>Withstands heavy shock, vibration and extreme chemical or environmental conditions</li><li>Prevents vibration loosening</li><li>Protects threads from corrosion</li><li>temperature range -54°C to 150°C (-65°F to 300°F)</li><li>6ml tube</li><li>Extra effort and localized heat may be required for removal</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/permatex-red-permanent-strength-thread-locker-6ml-0383772p.html",
+            "pdp-url":"/en/pdp/permatex-red-permanent-strength-thread-locker-6ml-0383772p.html",
+            "prod-name":"Permatex Red Permanent Strength Thread locker, 6ml",
+            "record-type":"product",
+            "sku-id":"0383772",
+            "sku-number":"38-3772-6",
+            "sku-part-number":"26207",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0383772_1",
+            "product-tags":"product-tags:automotive/car-care/threadlockers-anti-seize-lubricants|Threadlockers & Anti-Seize Lubricants|Threadlockers & Anti-Seize Lubricants|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0388015P",
+            "clearance":"F",
+            "features":"<ul><li>Applies as a liquid, then cures to a flexible, vinyl polymer</li><li>Allows complete sealing to keep out air, dirt and moisture</li><li>Brush-top applicator allows for easy use in hard-to-reach places</li><li>UV and chemical resistant</li><li>Dielectric strength: 1700 volts per mil thickness</li><li>Does not unravel like tape</li><li>Remains flexible under extreme condition</li><li>Temperature range: -50°C to 135°C (-50°F to 275°F)</li><li>Applications: trailer hitch lighting, battery connections, auxiliary light connections, speaker wires, stereo systems, alarm systems, underground wiring, marine bilge pumps, control panel wiring, computer wiring, landscape lighting, circuit boards, home theaters, toys and hobby kits</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/permatex-liquid-electrical-tape-0388015p.html",
+            "pdp-url":"/en/pdp/permatex-liquid-electrical-tape-0388015p.html",
+            "prod-name":"Permatex Liquid Electrical Tape",
+            "record-type":"product",
+            "sku-id":"0388015",
+            "sku-number":"38-8015-0",
+            "sku-part-number":"85121",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0388015_1",
+            "product-tags":"product-tags:automotive/car-care/car-adhesives-sealants|Car Adhesives & Sealants|Car Adhesives & Sealants|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0382500P",
+            "clearance":"F",
+            "features":"<ul><li>Permatex Anaerobic Gasket Maker is designed for use on aluminum flanges</li><li>Use for gasketing close fitting rigid-machined flanges with gaps up to 0.25mm unprimed; 1.27mm with primer</li><li>Eliminates need for pre-formed, pre-cut, paper gaskets</li><li>Superior resistance to powertrain fluids including engine oil, transmission fluid, gear lube and coolants</li><li>High reliability sealing</li><li>Long term durability</li><li>Resists temperatures up to 150°C (300°F)</li><li>Applications: Water pumps, thermostat housings, transmission pans, transmission case covers, transaxle casings, o-ring replacement</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/permatex-anaerobic-gasket-maker-50-ml-0382500p.html",
+            "pdp-url":"/en/pdp/permatex-anaerobic-gasket-maker-50-ml-0382500p.html",
+            "prod-name":"Permatex Anaerobic Gasket Maker, 50 mL",
+            "record-type":"product",
+            "sku-id":"0382500",
+            "sku-number":"38-2500-0",
+            "sku-part-number":"0382500",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0382500_1",
+            "product-tags":"product-tags:automotive/car-care/gasket-makers-sealers|Gasket Makers & Sealers|Gasket Makers & Sealers|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0383737P",
+            "clearance":"F",
+            "features":"<ul><li>Ultra Black RTV Gasket Maker is OEM specified</li><li>Sensor-safe & non-corrosive</li><li>Will not contaminate oxygen sensors or corrode other electronic engine components</li><li>Superior adhesion to oily surfaces with long term durability</li><li>Superior resistance to powertrain fluids including engine oil, transmission fluid, gear lube and coolants</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/ultra-black-rtv-gasket-maker-300-ml-0383737p.html",
+            "pdp-url":"/en/pdp/ultra-black-rtv-gasket-maker-300-ml-0383737p.html",
+            "prod-name":"Ultra Black RTV Gasket Maker, 300 mL",
+            "record-type":"product",
+            "sku-id":"0383737",
+            "sku-number":"38-3737-2",
+            "sku-part-number":"59813",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0383737_1",
+            "product-tags":"product-tags:automotive/car-care/gasket-makers-sealers|Gasket Makers & Sealers|Gasket Makers & Sealers|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0382506P",
+            "clearance":"F",
+            "features":"<ul><li>Designed for dressing/sealing pre-formed gaskets on rigid flanges</li><li>Thick, fast drying, hardening formula</li><li>For applications where permanent assembly is desired</li><li>Resists common auto and shop fluids including fuels</li><li>Temperature range: -54°C to 200°C (-65°F to 400°F)</li><li>Military Spec S-45180 D, Type I</li><li>Applications: Dressing cork, rubber, paper, and composite gaskets, sealing hose connections</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/permatex-1-form-a-gasket-sealant-80ml-0382506p.html",
+            "pdp-url":"/en/pdp/permatex-1-form-a-gasket-sealant-80ml-0382506p.html",
+            "prod-name":"Permatex 1-Form A Gasket Sealant, 80mL",
+            "record-type":"product",
+            "sku-id":"0382506",
+            "sku-number":"38-2506-8",
+            "sku-part-number":"80493",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0382506_1",
+            "product-tags":"product-tags:automotive/car-care/gasket-makers-sealers|Gasket Makers & Sealers|Gasket Makers & Sealers|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0382510P",
+            "clearance":"F",
+            "features":"<ul><li>Ultra Grey RTV Gasket Maker is OEM specified</li><li>Sensor-safe & non-corrosive, will not contaminate oxygen sensors or corrode other electronic engine components</li><li>Superior adhesion to oily surfaces with long term durability</li><li>Performs under higher torque loads associated with engines having closely spaced bolt patterns</li><li>Superior resistance to powertrain fluids including engine oil, transmission fluid, gear lube and coolants</li><li>Temperature range -54°C to 260°C (-65°F to 500°F) intermittent</li><li>Applications: Valve covers, oil pans, intake manifold end seals, timing covers, water pumps, thermostat housings</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/ultra-grey-rtv-gasket-maker-300-ml-0382510p.html",
+            "pdp-url":"/en/pdp/ultra-grey-rtv-gasket-maker-300-ml-0382510p.html",
+            "prod-name":"Ultra Grey RTV Gasket Maker, 300 mL",
+            "record-type":"product",
+            "sku-id":"0382510",
+            "sku-number":"38-2510-6",
+            "sku-part-number":"0382510",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0382510_1",
+            "product-tags":"product-tags:automotive/car-care/gasket-makers-sealers|Gasket Makers & Sealers|Gasket Makers & Sealers|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0383764P",
+            "clearance":"F",
+            "features":"<ul><li>PermaPoxy™ 5 Minute General Purpose Epoxy is a fast setting epoxy in an easy to use 2-part dispensing syringe</li><li>Better choice than super glues for bonding parts with larger gaps</li><li>Can be drilled, machined, filed & painted</li><li>Resists most liquids including fuels and solvents</li><li>Clear appearance</li><li>Sets in 5 minutes</li><li>Permanent strength - up to 3400 PSI</li><li>Temperature range: -51°C to 82°C (-60°F to 180°F)</li><li>Applications: Auto trim parts, knobs, cracked taillights, fills cracks, ceramic, chrome, fabric, fiberglass, glass, hard plastic, metal and rubber</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/permapoxy-5-minute-general-purpose-epoxy-25-ml-0383764p.html",
+            "pdp-url":"/en/pdp/permapoxy-5-minute-general-purpose-epoxy-25-ml-0383764p.html",
+            "prod-name":"PermaPoxy™ 5 Minute General Purpose Epoxy, 25 mL",
+            "record-type":"product",
+            "sku-id":"0383764",
+            "sku-number":"38-3764-6",
+            "sku-part-number":"84111",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0383764_1",
+            "product-tags":"product-tags:automotive/car-care/car-adhesives-sealants|Car Adhesives & Sealants|Car Adhesives & Sealants|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0383813P",
+            "clearance":"F",
+            "features":"<ul><li>Permatex Steel Weld Epoxy can be used to bond parts, fill holes and repair cracks</li><li>High strength formula up to 4500 PSI</li><li>Cured adhesive can be drilled, machined, filed or threaded</li><li>A two-part, high strength, steel welding epoxy</li><li>Not recommended for polypropylene plastics</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/permatex-steel-weld-epoxy-0383813p.html",
+            "pdp-url":"/en/pdp/permatex-steel-weld-epoxy-0383813p.html",
+            "prod-name":"Permatex Steel Weld Epoxy",
+            "record-type":"product",
+            "sku-id":"0383813",
+            "sku-number":"38-3813-0",
+            "sku-part-number":"84119",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0383813_1",
+            "product-tags":"product-tags:automotive/car-care/car-adhesives-sealants|Car Adhesives & Sealants|Car Adhesives & Sealants|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0383821P",
+            "clearance":"F",
+            "features":"<ul><li>SteelStik Epoxy Putty is a steel reinforced epoxy putty stick</li><li>Hand kneadable epoxy adhesive will plug holes and make permanent repairs on wet and dry surfaces</li><li>Cures completely submerged in gasoline or under water in 60 minutes</li><li>Can be drilled, sanded, filed, tapped, machined and painted</li><li>Bonds to virtually any surface, including metal, wood and plastic</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/kwik-steel-0383821p.html",
+            "pdp-url":"/en/pdp/kwik-steel-0383821p.html",
+            "prod-name":"Kwik Steel",
+            "record-type":"product",
+            "sku-id":"0383821",
+            "sku-number":"38-3821-0",
+            "sku-part-number":"8247",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0383821_1",
+            "product-tags":"product-tags:automotive/car-care/car-adhesives-sealants|Car Adhesives & Sealants|Car Adhesives & Sealants|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0388082P",
+            "clearance":"F",
+            "features":"<ul><li>J-B Weld Perma-Lock Red Threadlocker provides a reliable and superior lock and seal for threaded fasteners</li><li>Ideal on all mechanical parts, body assemblies to",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/j-b-weld-perma-lock-red-threadlocker-high-strength-36-ml-0388082p.html",
+            "pdp-url":"/en/pdp/j-b-weld-perma-lock-red-threadlocker-high-strength-36-ml-0388082p.html",
+            "prod-name":"J-B Weld Perma-Lock Red Threadlocker, High Strength, 36-mL",
+            "record-type":"product",
+            "sku-id":"0388082",
+            "sku-number":"38-8082-8",
+            "sku-part-number":"",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0388082_1",
+            "product-tags":"product-tags:automotive/car-care/threadlockers-anti-seize-lubricants|Threadlockers & Anti-Seize Lubricants|Threadlockers & Anti-Seize Lubricants|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0381404P",
+            "clearance":"F",
+            "features":"<ul><li>Use for easy assembly and disassembly of metal parts, prevents galling during assembly</li><li>A highly refined blend of aluminum, copper and graphite</li><li>Enables easier disassembly of parts exposed to high temperatures</li><li>Prevents rusting, cold welding and galvanic corrosion between assembled parts</li><li>Resists most chemical and acid solutions, road salt, salt water, steam</li><li>Temperature range: -54°C to 870°C (-65°F to 1600°F)</li><li>Military-Spec 907E</li><li>Applications: Prevent seizing of exhaust system threads, spark plug threads, wheel studs, U-bolts, spring bolts, torque rod and pins, and similar automotive and marine applications</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/permatex-silver-grade-anti-seize-0381404p.html",
+            "pdp-url":"/en/pdp/permatex-silver-grade-anti-seize-0381404p.html",
+            "prod-name":"Permatex Silver Grade Anti-Seize",
+            "record-type":"product",
+            "sku-id":"0381404",
+            "sku-number":"38-1404-6",
+            "sku-part-number":"80558",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0381404_1",
+            "product-tags":"product-tags:automotive/car-care/threadlockers-anti-seize-lubricants|Threadlockers & Anti-Seize Lubricants|Threadlockers & Anti-Seize Lubricants|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0230109P",
+            "clearance":"F",
+            "features":"",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/bwd-egr-valve-gasket-0230109p.html",
+            "pdp-url":"/en/pdp/bwd-egr-valve-gasket-0230109p.html",
+            "prod-name":"BWD EGR Valve Gasket",
+            "record-type":"product",
+            "sku-id":"0230109|0230110|0230111|0230112|0230150|0230151|0230176|0230178|0230179|0230284|0230466|0230745|0230749|0230789|0230961|0231200|0231201|0231202|0231203|0231204|0231205|0231206|0231207|0231208|0231209|0231210|0231211|0231213|0231215|0231216|0231217|0231218|0231219|0231220|0231222|0231223|0231224|0231225|0231226|0231227|0231228|0231229|0231230|0231231|0231232|0231233|0231234|0231236|0231237|0231238|0231239|0231240|0231241|0231242|0231243|0231244|0231245|0231246|0231247|0231251|0231252|0231253|0231258|0231259|0231260|0231262|0231263|0231264|0231265|0231266|0231267|0231702|0231703|0231714|0231731|0231732|0231789|0231790|0231791|1231319|1231320|1231321|1231322|1231323|1231324|1231325|1231326",
+            "sku-number":"23-0109-0|23-0110-4|23-0111-2|23-0112-0|23-0150-8|23-0151-6|23-0176-8|23-0178-4|23-0179-2|23-0284-0|23-0466-8|23-0745-4|23-0749-6|23-0789-0|23-0961-8|23-1200-4|23-1201-2|23-1202-0|23-1203-8|23-1204-6|23-1205-4|23-1206-2|23-1207-0|23-1208-8|23-1209-6|23-1210-0|23-1211-8|23-1213-4|23-1215-0|23-1216-8|23-1217-6|23-1218-4|23-1219-2|23-1220-6|23-1222-2|23-1223-0|23-1224-8|23-1225-6|23-1226-4|23-1227-2|23-1228-0|23-1229-8|23-1230-2|23-1231-0|23-1232-8|23-1233-6|23-1234-4|23-1236-0|23-1237-8|23-1238-6|23-1239-4|23-1240-8|23-1241-6|23-1242-4|23-1243-2|23-1244-0|23-1245-8|23-1246-6|23-1247-4|23-1251-2|23-1252-0|23-1253-8|23-1258-8|23-1259-6|23-1260-0|23-1262-6|23-1263-4|23-1264-2|23-1265-0|23-1266-8|23-1267-6|23-1702-0|23-1703-8|23-1714-2|23-1731-0|23-1732-8|23-1789-4|23-1790-8|23-1791-6|123-1319-6|123-1320-0|123-1321-8|123-1322-6|123-1323-4|123-1324-2|123-1325-0|123-1326-8",
+            "sku-part-number":"EVG10|EVG12|EVG15|EVG9|EVG35|EVG33|EVG38|EVG11|EVG17|EVG20|EVG19|EVG32|EVG51|EVG55|EVG21|EVG175|EVG158|EVG112|EVG161|EVG168|EVG167|EVG34|EVG107|EVG31|EVG104|EVG24|EVG126|EVG147|EVG176|EVG129|EVG182|EVG29|EVG28|EVG26|EVG25|EVG157|EVG127|EVG145|EVG166|EVG59|EVG13|EVG84|EVG75|EVG139|EVG72|EVG138|EVG120|EVG46|EVG154|EVG118|EVG153|EVG151|EVG56|EVG117|EVG45|EVG149|EVG121|EVG40|EGV102|EVG36|EVG42|EVG115|EVG87|EVG57|EVG142|EVG178|EVG190|EVG128|EVG14|EVG39|EVG136|EVG18|EVG53|EVG22|EVG27|EVG41|EVG23|EVG43|EVG50|EVG109|EVG165|EVG106|EVG131|EVG113|EVG66|EVG103|EVG111",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0230109_1",
+            "product-tags":"product-tags:automotive/car-care/gasket-makers-sealers|Gasket Makers & Sealers|Gasket Makers & Sealers||specification-tags:ps-asa|PS_ASA|PS_ASA|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0245503P",
+            "clearance":"F",
+            "features":"<ul><li>Dorman HELP! Hair Pin is ideal for a variety of applications and uses</li><li>High-quality construction for long-lasting durability</li><li>Universal - fits all makes and models</li><li>Assorted sizes and lengths</li><li>Includes 20 hair pins and visual reference guide</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/dorman-help-hair-pin-universal-assortment-20-pk-0245503p.html",
+            "pdp-url":"/en/pdp/dorman-help-hair-pin-universal-assortment-20-pk-0245503p.html",
+            "prod-name":"Dorman HELP! Hair Pin, Universal, Assortment, 20-pk",
+            "record-type":"product",
+            "sku-id":"0245503",
+            "sku-number":"24-5503-8",
+            "sku-part-number":"93036",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0245503_1",
+            "product-tags":"product-tags:automotive/car-care/gasket-makers-sealers|Gasket Makers & Sealers|Gasket Makers & Sealers||product-tags:automotive/garage-tools-equipment-storage/steering-suspension-alignment-tools|Steering, Suspension & Alignment Tools|Steering, Suspension & Alignment Tools||specification-tags:ps-asa|PS_ASA|PS_ASA|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0383784P",
+            "clearance":"F",
+            "features":"<ul><li>Permatex Hi-Temp Red RTV Gasket Maker is sensor-safe</li><li>Formulated for high temp. applications or heavy-duty use (such as towing and turbo charged engines)</li><li>Replaces almost any cut gasket</li><li>Resists auto and shop fluids</li><li>Waterproof seal resists cracking, shrinking and migrating</li><li>Temperature range: -54°C to 343°C (-65°F to 650°F) intermittent</li><li>Applications: Valve covers, oil pans, water pumps, thermostat housings, transmission pans</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/permatex-hi-temp-red-rtv-gasket-maker-0383784p.html",
+            "pdp-url":"/en/pdp/permatex-hi-temp-red-rtv-gasket-maker-0383784p.html",
+            "prod-name":"Permatex Hi-Temp Red RTV Gasket Maker",
+            "record-type":"product",
+            "sku-id":"0383784|0383797",
+            "sku-number":"38-3784-8|38-3797-8",
+            "sku-part-number":"38403|38404",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0383784_1",
+            "product-tags":"product-tags:automotive/car-care/gasket-makers-sealers|Gasket Makers & Sealers|Gasket Makers & Sealers||specification-tags:ps-variance|PS Variance|PS Variance|"
+         }
+      },
+      {  
+         "field":{  
+            "prod-id":"0383792P",
+            "clearance":"F",
+            "features":"<ul><li>Waterweld Epoxy Putty allows you to make permanent repairs in moist or under water applications</li><li>Will fully cure in 60 minutes and will adhere to most surfaces</li><li>Once cured it can be drilled, sanded, filed, tapped, machined and painted</li></ul>",
+            "is-tested":"F",
+            "short-pdp-url":"/en/pdp/j-b-weld-waterweld-epoxy-putty-0383792p.html",
+            "pdp-url":"/en/pdp/j-b-weld-waterweld-epoxy-putty-0383792p.html",
+            "prod-name":"J-B Weld Waterweld Epoxy Putty",
+            "record-type":"product",
+            "sku-id":"0383792",
+            "sku-number":"38-3792-8",
+            "sku-part-number":"",
+            "thumb-img-url":"http://s7d5.scene7.com/is/image/CanadianTire/0383792_1",
+            "product-tags":"product-tags:automotive/car-care/car-adhesives-sealants|Car Adhesives & Sealants|Car Adhesives & Sealants|"
+         }
+      }
+   ]
+}

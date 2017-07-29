@@ -12,12 +12,12 @@ function mapDispatchToProps(dispatch) {
         onButtonClick: id => {
             dispatch({ type: ACTIVATE_BUTTON, activeItemIndex: id });
         }
-    }
+    };
 }
 
 const HeaderContainer = connect(
     mapStateToProps,
     mapDispatchToProps
-)(HeaderBar)
+)(HeaderBar);
 
 export default HeaderContainer;

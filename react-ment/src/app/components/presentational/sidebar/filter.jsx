@@ -1,16 +1,18 @@
 import React from 'react';
-
+import FilterGroupItem from '../list/filterGroupItem/filterGroupItem';
 import './filter.css';
 
-const Filter = () => {
+const Filter = ({ data }) => {
     return (
-        <ul className="nav nav-sidebar">
-            <li className="active"><a href="#">Overview </a></li>
-            <li><a href="#">Reports</a></li>
-            <li><a href="#">Analytics</a></li>
-            <li><a href="#">Export</a></li>
-          </ul>
-    )
+        <div className="nav nav-sidebar">
+            <ul className="list-group">
+                { data.map(function(item, index) {
+                    return <FilterGroupItem id={ index } item={ item } />;
+                })
+                }
+            </ul>
+        </div>
+    );
 };
 
 export default Filter;

@@ -14,7 +14,8 @@ const FilterReducer = (state = INITIAL_STATE, action) => {
         };
         case actions.CHECKBOX_UNCHECKED: return {
             ...state,
-            checkboxesChecked: state.checkboxesChecked.filter(elt => elt.optionId !== action.data.optionId);
+            checkboxesChecked: state.checkboxesChecked.filter(elt => elt.optionId !== action.data.optionId)
+        };
         case actions.RADIO_ON: return {
             ...state,
             radioOn: [...state.radioOn, action.data.optionId]
@@ -22,6 +23,6 @@ const FilterReducer = (state = INITIAL_STATE, action) => {
         case actions.RESET_FILTER: return { ...state, reset: true };
         default: return state;
     }
-}
+};
 
 export default FilterReducer;
