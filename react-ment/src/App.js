@@ -1,8 +1,8 @@
 import React from 'react';
 
-import {Breadcrumb, Footer, MasterSearchContainer, Filter,
-        SearchBar } from './app/components/presentational/index';
+import {Breadcrumb, Footer, MasterSearchContainer, SearchBar } from './app/components/presentational/index';
 import HeaderContainer from './app/components/containers/headerContainer/headerContainer';
+import FilterContainer from './app/components/containers/filter/filterContainer';
 import testButtons from './app/mocks/headerTestData.json';
 import testSrpCall from './app/mocks/products/testSrpCall.json';
 
@@ -28,7 +28,7 @@ class App extends React.Component {
                     
                     <div className="row">
                         <div className="col-md-2">
-                            <Filter data={ testSrpCall.facets } />
+                            <FilterContainer items={ testSrpCall.facets } />
                         </div>
 
                         <div className="col-md-10">

@@ -1,13 +1,11 @@
 import { combineReducers } from 'redux';
 
-import FilterReducer from './filterReducer';
+import requestReducer from './requestReducer';
 import headerReducer from './headerReducer';
-import SearchResultsContainerReducer from './searchResultsContainerReducer';
 
 const rootReducer = combineReducers({
-    FilterReducer,
-    headerReducer,
-    SearchResultsContainerReducer
+    requestReducer,
+    headerReducer
 });
 
 export default rootReducer;
