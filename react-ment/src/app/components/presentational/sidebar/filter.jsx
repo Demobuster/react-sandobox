@@ -1,15 +1,20 @@
 import React from 'react';
+import $ from "jquery";
 import FilterGroupItem from '../list/filterGroupItem/filterGroupItem';
 import './filter.css';
 
-const Filter = ({ data, handleFormChange }) => {
+const Filter = ({ items, handleFormChange }) => {
     return (
         <div className="nav nav-sidebar">
-            <form onChange={ handleFormChange }>
+            <form onChange={ handleFormChange } >
+
                 <ul className="list-group">
-                    { data.map(function(item, index) {
-                        return <FilterGroupItem id={ index } item={ item } />;
-                    })
+                    {
+                        items.map(function(item, index) {
+                            if (!$.isEmptyObject(item)) {
+                                return <FilterGroupItem key={ index } item={ item } />;
+                            }
+                        })
                     }
                 </ul>
             </form>
