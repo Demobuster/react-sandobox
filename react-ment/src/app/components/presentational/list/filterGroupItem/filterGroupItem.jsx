@@ -28,8 +28,16 @@ class FilterGroupItem extends React.Component {
                       </div>
                     </a>
                     <div className={"panel-body" + (this.state.selected ? "" : " collapse")}>
-                        <input type='checkbox' name='q1' value='Automotive' />
-                        <span> Automotive</span>
+                        {
+                            this.state.values.map(function(item, index) {
+                                return (
+                                    <div key={ index }>
+                                        <input type='checkbox' name='link' value={ item.link } />
+                                        <span> { item.label } ({ item.count })</span>
+                                    </div>
+                                );
+                            })
+                        }
                     </div>
                 </div>
             </li>

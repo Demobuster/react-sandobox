@@ -1,10 +1,10 @@
 import { connect } from 'react-redux';
 import HeaderBar from '../../presentational/header/headerBar';
 import { ACTIVATE_BUTTON } from '../../../actions/headerActions';
-import HeaderSelectors from '../../../selectors/headerSelectors';
+import headerSelectors from '../../../selectors/headerSelectors';
 
 function mapStateToProps(state) {
-    return HeaderSelectors.getActiveItemIndex(state);
+    return headerSelectors.getActiveItemIndex(state);
 }
 
 function mapDispatchToProps(dispatch) {

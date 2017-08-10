@@ -2,14 +2,14 @@ import React from 'react';
 
 import {Breadcrumb, Footer, MasterSearchContainer, SearchBar } from './app/components/presentational/index';
 import HeaderContainer from './app/components/containers/headerContainer/headerContainer';
-import FilterContainer from './app/components/containers/filter/filterContainer';
+import FilterContainer from './app/components/containers/filterContainer/filterContainer';
 import testButtons from './app/mocks/headerTestData.json';
 import testSrpCall from './app/mocks/products/testSrpCall.json';
 
 import './App.css';
 
 class App extends React.Component {
-  
+
     render() {
         return (
             <div>

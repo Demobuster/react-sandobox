@@ -1,22 +1,18 @@
 import * as actions from '../actions/requestActions';
 
 const INITIAL_STATE = {
-    data: {},
-    queryParams: {
-        q: 'hats',
-        q1: null,
-        q2: null
-    }
+    items: null,
+    queryParams: null
 };
 
 export default function (state = INITIAL_STATE, action = {}) {
     switch (action.type) {
         case actions.REQUEST_SENT: {
             const updated = state.queryParams;
-            return { ...state, queryParams: updated};
+            return { ...state, queryParams: updated };
         }
         case actions.REQUEST_SUCCEEDED: {
-            return { ...state, data: action.data };
+            return { ...state, items: action.items };
         }
 
         default: return state;
